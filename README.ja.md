@@ -2,9 +2,7 @@
 
 PHP で書かれた [ComicGlass](http://comicglass.net/en/) 用 MediaServer.
 
-```
 *Read this in other languages: [English](README.md)*
-```
 
 ## セットアップ方法
 

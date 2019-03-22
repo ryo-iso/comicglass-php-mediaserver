@@ -2,9 +2,7 @@
 
 MediaServer written with PHP for [ComicGlass](http://comicglass.net/en/).
 
-```
 *Read this in other languages: [日本語](README.ja.md)*
-```
 
 ## How to Setup
 
