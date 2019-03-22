@@ -1,6 +1,6 @@
 # PHP MediaServer for ComicGlass
 
-PHP で書かれた [ComicGlass](http://comicglass.net/en/) 用 MediaServer.
+PHP で書かれた [ComicGlass](http://comicglass.net/) 用 MediaServer.
 
 *Read this in other languages: [English](README.md)*
 
