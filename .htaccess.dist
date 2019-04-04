@@ -1,12 +1,20 @@
 AuthType     Basic
+# AuthType     Digest
 AuthName     "Private Area"
 require valid-user
 AuthUserFile "/path/to/passwd"
 
-# Force HTTPS
+# Force HTTPS (Strongly recommended for Basic auth)
 
 # <IfModule mod_rewrite.c>
 #     RewriteEngine On
 #     RewriteCond %{HTTPS} off
 #     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# Download Speed Limit
+
+# <IfModule mod_ratelimit.c>
+#     SetOutputFilter RATE_LIMIT
+#     SetEnv rate-limit 750
 # </IfModule>
