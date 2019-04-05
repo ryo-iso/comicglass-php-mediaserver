@@ -1,6 +1,5 @@
-AuthType     Basic
-# AuthType     Digest
-AuthName     "Private Area"
+AuthType Basic
+AuthName "Private Area"
 require valid-user
 AuthUserFile "/path/to/passwd"
 
